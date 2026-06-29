@@ -1,0 +1,16 @@
+{
+  "name": "mcad1-morning-red-scanner",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A股早盘 9:30-9:45 MACD 全红柱筛选器",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "scan": "node src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "iconv-lite": "^0.6.3"
+  }
+}
